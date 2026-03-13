@@ -1,0 +1,14 @@
+{
+  "name": "todo-app",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "test": "npm run test:server && npm run test:client",
+    "test:server": "cd server && npx vitest run",
+    "test:client": "cd client && npx vitest run"
+  }
+}

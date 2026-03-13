@@ -1,0 +1,22 @@
+{
+  "name": "@todo-app/server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@todo-app/shared": "*",
+    "express": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^3.0.0",
+    "supertest": "^7.0.0",
+    "@types/supertest": "^6.0.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0"
+  }
+}
