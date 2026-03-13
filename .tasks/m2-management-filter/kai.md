@@ -1,14 +1,14 @@
 # Task: Implement M2 — Edit, Delete, Filter Frontend
 
 ## Tests cần pass
-[Quinn sẽ cung cấp đường dẫn test files sau khi commit]
+`packages/client/src/__tests__/m2-management-filter.test.tsx`
 
 ## Steps
 1. Đọc types + tests để hiểu requirements
 2. Implement FE: components, pages, API calls — TỰ QUYẾT ĐỊNH cách tổ chức
 3. BẮT BUỘC: Config Vite proxy `/api` → `localhost:3000` (cho tunnel testing)
 4. Nếu BE chưa xong → dùng MSW mock
-5. Run: npx vitest run [test-path]
+5. Run: npx vitest run packages/client/src/__tests__/m2-management-filter.test.tsx
 6. Iterate đến khi ALL GREEN
 7. Commit: git add -A && git commit -m "feat: implement m2-management-filter frontend"
 

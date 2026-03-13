@@ -1,12 +1,12 @@
 # Task: Implement M2 — Edit, Delete, Filter Backend
 
 ## Tests cần pass
-[Quinn sẽ cung cấp đường dẫn test files sau khi commit]
+`packages/server/src/__tests__/m2-management-filter.test.ts`
 
 ## Steps
 1. Đọc types + tests để hiểu requirements
 2. Implement BE: routes, logic, database — TỰ QUYẾT ĐỊNH cách tổ chức
-3. Run: npx vitest run [test-path]
+3. Run: npx vitest run packages/server/src/__tests__/m2-management-filter.test.ts
 4. Iterate đến khi ALL GREEN
 5. Commit: git add -A && git commit -m "feat: implement m2-management-filter backend"
 

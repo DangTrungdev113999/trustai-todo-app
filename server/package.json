@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "npx tsx src/index.ts",
     "test": "vitest run",
     "test:watch": "vitest"
   },
@@ -20,6 +21,7 @@
     "@types/node": "^22.0.0",
     "@types/supertest": "^6.0.0",
     "supertest": "^7.0.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.4.0",
     "vitest": "^3.0.0"
   }
