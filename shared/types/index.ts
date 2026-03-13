@@ -49,6 +49,8 @@ export interface AuthResponse {
 // Todos
 // ============================================================
 
+export type TodoFilter = 'all' | 'active' | 'completed';
+
 export interface CreateTodoRequest {
   content: string;
 }
